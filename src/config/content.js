@@ -49,8 +49,8 @@ export const birthdayContent = {
       fallbackTitle: "Esther III",
     },
     {
-      src: "",
-      alt: "Replace with Esther photo four",
+      src: "./assets/photos/tiksekle.jpeg",
+      alt: "tiktok profile picture",
       caption: "Some memories do not fade; they learn how to glow.",
       fallbackTitle: "Esther IV",
     },

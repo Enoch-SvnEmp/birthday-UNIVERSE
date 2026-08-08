@@ -6,7 +6,7 @@ export function MusicController(content) {
   button.className = "music-controller";
   button.setAttribute("aria-pressed", "false");
   button.setAttribute("aria-label", `Play ${content.music.label}`);
-  button.innerHTML = `${icons.play}<span>Sound</span>`;
+  button.innerHTML = `${icons.play}<span>MUSIC</span>`;
 
   let audio = null;
   let audioContext = null;
@@ -18,7 +18,7 @@ export function MusicController(content) {
     playing = nextPlaying;
     button.setAttribute("aria-pressed", String(playing));
     button.setAttribute("aria-label", `${playing ? "Pause" : "Play"} ${content.music.label}`);
-    button.innerHTML = `${playing ? icons.pause : icons.play}<span>${playing ? "Playing" : "Sound"}</span>`;
+    button.innerHTML = `${playing ? icons.pause : icons.play}<span>${playing ? "Playing" : "MUSIC"}</span>`;
   }
 
   async function startFallbackTone() {

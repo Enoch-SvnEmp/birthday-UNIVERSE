@@ -1,4 +1,4 @@
-# Esther's Birthday Universe
+# M'LADY's Birthday Universe
 
 A cinematic, interactive birthday experience built as a modular static app.
 
@@ -6,7 +6,7 @@ A cinematic, interactive birthday experience built as a modular static app.
 
 Update `src/config/content.js` to replace:
 
-- Esther's photos and captions
+- M'LADY's photos and captions
 - Birthday message
 - Background music path
 - Secret messages
@@ -19,10 +19,10 @@ Example:
 ```js
 photos: [
   {
-    src: "./assets/photos/esther-01.jpg",
-    alt: "Esther smiling at dinner",
+    src: "./assets/photos/M'LADY's-01.jpg",
+    alt: "M'LADY's smiling at dinner",
     caption: "The smile that changed the weather.",
-    fallbackTitle: "Esther I",
+    fallbackTitle: "M'LADY's I",
   },
 ]
 ```

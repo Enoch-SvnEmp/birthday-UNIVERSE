@@ -2,7 +2,7 @@ export const birthdayContent = {
   personName: "Esther",
   creatorName: "Sovereign Emperor",
   music: {
-    src: "",
+    src: "./assets/music/what is LOVE.mp3",
     label: "Birthday ambience",
   },
   intro: {
@@ -31,19 +31,19 @@ export const birthdayContent = {
   ],
   photos: [
     {
-      src: "",
+      src: "./assets/photos/esther1.jpg",
       alt: "Replace with Esther photo one",
       caption: "The smile that changed the weather.",
       fallbackTitle: "Esther I",
     },
     {
-      src: "",
+      src: "./assets/photos/esther2.jpg",
       alt: "Replace with Esther photo two",
       caption: "A soft moment, kept like a star in the hand.",
       fallbackTitle: "Esther II",
     },
     {
-      src: "",
+      src: "./assets/photos/esther3.jpg",
       alt: "Replace with Esther photo three",
       caption: "Proof that grace can also be powerful.",
       fallbackTitle: "Esther III",
